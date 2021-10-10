@@ -1,0 +1,24 @@
+body {
+  background-color: #f7f6f1;
+}
+.card {
+  border-radius: 20px;
+  position: relative;
+
+  height: auto;
+}
+.blog {
+  visibility: var(--y);
+  transition: 3s ease;
+}
+.form-Design {
+  background: #fff;
+  padding: 30px 30px;
+  width: 50%;
+  visibility: var(--x);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  border-radius: 20px;
+}
