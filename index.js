@@ -52,23 +52,3 @@ btnNews.addEventListener("click", () => {
 
   generateCitations();
 });
-
-const form = document.querySelector(".form-Design");
-const blog = document.querySelector(".blog");
-form.style.setProperty("--x", "hidden");
-btnAdd.addEventListener("click", () => {
-  form.style.setProperty("--x", "visible");
-  blog.style.setProperty("--y", "hidden");
-  blog.remove();
-});
-
-const addCitation = (cita, aut) => {
-  let array = [];
-  let ok = {
-    citation: cita,
-    auteur: aut
-  };
-  array.push(...lesCitations, ok);
-  console.log(array);
-};
-addCitation("Marre de rever, je veux que ça se réalise!!", "New-style");
